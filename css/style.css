@@ -1,0 +1,74 @@
+body{
+	perspective: 640px;
+	perspective-origin: 50% 100%;
+}
+
+
+
+/* Layout */
+.ba-container {
+	width: 640px;
+	margin: 20px auto;
+	background-image: url(../img/chess-2026115_640.png);
+	height: 640px;
+	transform: rotateX(30deg) rotate(10deg);
+}
+.ba-container__row {
+	padding: 0;
+	margin: 0;
+}
+[class*=ba-container__row-] {
+	height: 70px;
+	width: 70px;
+	display: inline-block;
+	position: relative;
+}
+.ba-container__row-black > img {
+	position: absolute;
+	top: 22px;
+}
+.ba-container__row-white > img {
+	position: absolute;
+	top: 177px;
+}
+
+.ba-container__row1-black1, 
+.ba-container__row3-black1,
+.ba-container__row2-white1 {
+	left: 97px;
+}
+.ba-container__row1-black2, 
+.ba-container__row3-black2,
+.ba-container__row2-white2 {
+	left: 175px;
+}
+.ba-container__row1-black3, 
+.ba-container__row3-black3,
+.ba-container__row2-white3 {
+	left: 250px;
+}
+.ba-container__row1-black4, 
+.ba-container__row3-black4,
+.ba-container__row2-white4 {
+	left: 325px;
+}
+.ba-container__row2-black1,
+.ba-container__row1-white1,
+.ba-container__row3-white1 {
+	left: 23px;
+}
+.ba-container__row2-black2,
+.ba-container__row1-white2,
+.ba-container__row3-white2 {
+	left: 97px;
+}
+.ba-container__row2-black3,
+.ba-container__row1-white3,
+.ba-container__row3-white3 {
+	left: 175px;
+}
+.ba-container__row2-black4,
+.ba-container__row1-white4,
+.ba-container__row3-white4 {
+	left: 250px;
+}
